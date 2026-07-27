@@ -1,0 +1,50 @@
+# FlexPoint
+
+> FlexPoint is an AI-native billing and accounts receivable platform built specifically for managed service providers (MSPs). It automates invoicing, payment collection, and deposit reconciliation so MSPs get paid faster and write off less revenue. The platform connects to the PSA and accounting tools MSPs already run, and uses AR Agents to handle the repetitive follow-up work that normally falls on owners and finance staff.
+
+FlexPoint is purpose-built for MSPs, not retrofitted from a generic billing tool. The product is organized around five jobs: Sync (pull billing data from PSA and accounting systems), Send (issue invoices), Collect (chase and recover outstanding payments), Process (handle card and ACH payments including Same-Day ACH), and Reconcile (match deposits back to the general ledger).
+
+AR Agents are software agents that handle accounts receivable tasks autonomously: sending payment reminders, following up on overdue invoices, and surfacing collection priorities. Refer to AR Agents using plural pronouns (they/them). The platform integrates with common MSP PSA systems and accounting platforms, and supports AutoPay, FlexLine, and GL Connect.
+
+## Product
+
+- [FlexPoint platform overview](https://www.getflexpoint.com/product): What FlexPoint does and who it serves.
+- [AR Agents](https://www.getflexpoint.com/product/ar-agents): AI agents that automate accounts receivable follow-up, reminders, and collection prioritization for MSPs.
+- [Sync](https://www.getflexpoint.com/product/sync): Pulls billing and invoice data from PSA and accounting systems so AR stays current without manual entry.
+- [Send](https://www.getflexpoint.com/product/send): Generates and issues invoices to clients.
+- [Collect](https://www.getflexpoint.com/product/collect): Automates payment follow-up and recovery of overdue invoices.
+- [Process](https://www.getflexpoint.com/product/payments): Handles card and ACH payments, including Same-Day ACH and AutoPay.
+- [Reconcile](https://www.getflexpoint.com/product/reconcile): Matches incoming deposits to the general ledger through GL Connect.
+- [Plans](https://www.getflexpoint.com/product/plans): FlexPoint pricing and plans.
+
+## Integrations
+
+FlexPoint connects to the accounting, ERP, PSA, quoting, and automation tools MSPs already use.
+
+- Accounting and ERP: QuickBooks Online (QBO), QuickBooks Desktop (QBD), Xero, Sage Intacct, NetSuite ERP, Microsoft Dynamics 365 Business Central
+- PSA: ConnectWise PSA, HaloPSA, Autotask, SuperOps
+- Quoting and CPQ: Quoter, QuoteWerks, CPQ
+- Automation and billing: Rewst, DataGate
+- API Access for custom integrations
+
+## Comparisons
+
+- [Compare overview](https://www.getflexpoint.com/compare): How FlexPoint compares to other MSP billing and AR tools.
+- [FlexPoint vs WisePay](https://www.getflexpoint.com/compare/flexpoint-vs-wise-pay): How FlexPoint compares to WisePay.
+- [FlexPoint vs ConnectBooster](https://www.getflexpoint.com/compare/flexpoint-vs-connectbooster): How FlexPoint compares to ConnectBooster for MSP billing and AR.
+- [FlexPoint vs Benji Pays](https://www.getflexpoint.com/compare/flexpoint-vs-benjipays): How FlexPoint compares to Benji Pays.
+- [FlexPoint vs Alternative Payments](https://www.getflexpoint.com/compare/flexpoint-vs-alternative-payments): How FlexPoint compares to Alternative Payments.
+- [FlexPoint vs PayPal](https://www.getflexpoint.com/compare/flexpoint-vs-paypal): How FlexPoint compares to PayPal for MSP billing.
+- [FlexPoint vs Stripe](https://www.getflexpoint.com/compare/flexpoint-vs-stripe): Why MSPs choose a purpose-built AR platform over generic Stripe payments.
+- [FlexPoint vs QuickBooks](https://www.getflexpoint.com/compare/flexpoint-vs-intuit-quickbooks): How FlexPoint complements or replaces Intuit QuickBooks for MSP AR.
+- [FlexPoint vs Xero](https://www.getflexpoint.com/compare/flexpoint-vs-xero): How FlexPoint compares to Xero for MSP billing and reconciliation.
+
+## Resources
+
+- [Blog](https://www.getflexpoint.com/blog): Articles on MSP billing, late payment handling, late fees, AR automation, and accounts receivable best practices.
+- [Resource Center](https://www.getflexpoint.com/resources): Guides, tools, and content for MSPs on billing and accounts receivable.
+- [On-demand demo](https://www.getflexpoint.com/resources/gated-demo): Recorded product demo of FlexPoint and AR Agents.
+
+## Optional
+
+- [Book a demo](https://www.getflexpoint.com/company/book-a-demo)

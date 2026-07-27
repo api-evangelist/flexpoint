@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.getflexpoint.com/company/security
+standards:
+  - id: pci-dss
+    conforms: true
+    level: "Level 1"
+    evidence: "Security page states card payments are processed by a Level 1 PCI DSS certified provider; no sensitive cardholder data stored on FlexPoint servers."
+    source: https://www.getflexpoint.com/company/security
+  - id: tls-in-transit
+    conforms: true
+    evidence: "TLSv1.3 with HSTS (max-age 31536000) on www.getflexpoint.com; data encrypted in transit and at rest per security page."
+    source: security/flexpoint-domain-security.yml
+  - id: soc2
+    conforms: false
+    evidence: "No SOC 2 attestation published on the public security page."
+  - id: iso27001
+    conforms: false
+    evidence: "No ISO 27001 certification published on the public security page."
+  - id: hipaa
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: "No public OpenAPI/API reference published to derive error format."
+notes: >-
+  FlexPoint mentions API access for custom integrations but publishes no public
+  developer portal, OpenAPI, or API reference, so cross-cutting API standards
+  (OAuth2/OIDC, pagination, idempotency, RFC 9457) cannot be asserted. Compliance
+  claims limited to what the public security page states.

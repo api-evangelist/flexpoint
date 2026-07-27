@@ -1,22 +1,48 @@
 aid: flexpoint
 name: FlexPoint
-description: 'FlexPoint is a company surfaced as a portfolio company of foundry-group, techstars and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'FlexPoint is an AI-native billing and accounts receivable (AR) platform built specifically
+  for managed service providers (MSPs). It automates the invoice-to-cash lifecycle across five jobs: Sync
+  (pull billing data from PSA and accounting systems), Send (issue invoices), Collect (chase and recover
+  overdue invoices), Process (card and ACH payments including Same-Day ACH and AutoPay), and Reconcile
+  (match deposits to the general ledger via GL Connect). FlexPoint''s AR Agents autonomously send payment
+  reminders, follow up on overdue invoices, and surface collection priorities. The platform integrates
+  with the accounting, ERP, PSA, quoting, and automation tools MSPs already run (QuickBooks, Xero, Sage
+  Intacct, NetSuite, Business Central, ConnectWise, HaloPSA, Autotask, SuperOps, Quoter, QuoteWerks, Rewst,
+  DataGate) and offers API access for custom integrations. FlexPoint is backed by Foundry Group and Techstars.'
 url: https://raw.githubusercontent.com/api-evangelist/flexpoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - foundry-group
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69ef8b6cd862368a6d41227b/6a1f38cf17e2844bed866a79_Open%20Graph%20FlexPoint.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Payments
+- Billing
+- Accounts Receivable
+- MSP
+- Invoicing
+- ACH
+- Reconciliation
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flexpoint-domain-security.yml
 - type: Website
   url: https://www.getflexpoint.com
+- type: Product
+  url: https://www.getflexpoint.com/product
+- type: Pricing
+  url: https://www.getflexpoint.com/product/plans
+- type: Support
+  url: https://www.getflexpoint.com/company/contact-us
+- type: Blog
+  url: https://www.getflexpoint.com/blog
+- type: TermsOfService
+  url: https://www.getflexpoint.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getflexpoint.com/privacy-policy
+- type: Compliance
+  url: https://www.getflexpoint.com/company/security
+- type: TrustCenter
+  url: security/flexpoint-trust-center.yml
+- type: Conformance
+  url: conformance/flexpoint-conformance.yml
+- type: LLMsTxt
+  url: llms/flexpoint-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
